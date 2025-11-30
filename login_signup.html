@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Chocolattees Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="unnamed.jpg" alt="Logo" class="logo">
+            <h1>CHOCOLATTEES CART</h1>
+        </div>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collection.html">Collection</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login_signup.html" class="active btn-primary">Login</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="auth-wrapper">
+            <section class="auth-box">
+                <h2>Login</h2>
+                <form class="clean-form">
+                    <div class="form-group">
+                        <label for="loginEmail">Email</label>
+                        <input type="email" id="loginEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPass">Password</label>
+                        <input type="password" id="loginPass" required>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Sign In</button>
+                    <p class="auth-link"><a href="#">Forgot Password?</a></p>
+                </form>
+            </section>
+
+            <div class="divider">OR</div>
+
+            <section class="auth-box">
+                <h2>Sign Up</h2>
+                <form class="clean-form">
+                    <div class="form-group">
+                        <label for="signupUser">Username</label>
+                        <input type="text" id="signupUser">
+                    </div>
+                    <div class="form-group">
+                        <label for="signupEmail">Email</label>
+                        <input type="email" id="signupEmail">
+                    </div>
+                    <button type="button" class="btn-secondary full-width">Create Account</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Chocolattees Cart.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

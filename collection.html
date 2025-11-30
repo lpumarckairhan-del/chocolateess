@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Collection - Chocolattees Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="unnamed.jpg" alt="Logo" class="logo">
+            <h1>CHOCOLATTEES CART</h1>
+        </div>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collection.html" class="active">Collection</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login_signup.html" class="btn-primary">Login</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Latest Arrivals</h2>
+        
+        <!-- Toggle / Simple Animation Requirement -->
+        <button id="filterToggle" class="btn-secondary">Show/Hide Filters</button>
+        
+        <div id="filterPanel" class="filter-panel hidden">
+            <ul>
+                <li><a href="#">All Items</a></li>
+                <li><a href="#">T-Shirts</a></li>
+                <li><a href="#">Uniforms</a></li>
+                <li><a href="#">Accessories</a></li>
+            </ul>
+        </div>
+
+        <section class="product-grid">
+            <!-- Product 1 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <!-- Using uploaded image as product shot -->
+                    <img src="589119166_831750992936100_5669787342130516462_n.jpg" alt="Gray Uniform Shirt">
+                </div>
+                <div class="product-info">
+                    <h3>sarap</h3>
+                    <p>$25.00</p>
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </article>
+
+            <!-- Product 2 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="589408628_1349218203568056_3153768589383931497_n.jpg" alt="Casual Hoodie">
+                </div>
+                <div class="product-info">
+                    <h3>The DUO</h3>
+                    <p>$45.00</p>
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </article>
+
+            <!-- Product 3 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="566550896_1474408430319003_5385535914817786692_n.jpg" alt="Classic Polo">
+                </div>
+                <div class="product-info">
+                    <h3>David Cutie</h3>
+                    <p>$30.00</p>
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </article>
+
+            <!-- Product 4 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="590107034_2021883081923309_7494549905161931443_n.jpg" alt="Slim Fit Pants">
+                </div>
+                <div class="product-info">
+                    <h3>Poging Duo</h3>
+                    <p>$40.00</p>
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Chocolattees Cart.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
